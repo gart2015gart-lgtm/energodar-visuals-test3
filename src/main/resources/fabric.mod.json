@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "energodar_visuals",
+	"version": "${version}",
+	"name": "Energodar Visuals",
+	"description": "Visual PvP mod (no ESP).",
+	"authors": [
+		"Energodar"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.energodar.visuals.EnergodarVisuals"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
